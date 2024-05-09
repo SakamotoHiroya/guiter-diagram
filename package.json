@@ -1,0 +1,25 @@
+{
+  "name": "@sakamoto_hiroya/guitar-diagram",
+  "version": "0.1.0",
+  "description": "package includes react components that renders guiter diagrams.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SakamotoHiroya/guiter-diagram.git"
+  },
+  "author": "Hiroya Sakamoto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SakamotoHiroya/guiter-diagram/issues"
+  },
+  "homepage": "https://github.com/SakamotoHiroya/guiter-diagram#readme",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  }
+}
